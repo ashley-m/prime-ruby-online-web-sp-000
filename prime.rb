@@ -5,8 +5,8 @@ def prime?(num)
     if num % i == 0
       i += 1
     else
-      return true
+      return false
     end
   end
-  return false
+  return true
 end
